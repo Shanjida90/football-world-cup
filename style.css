@@ -31,10 +31,15 @@ header:hover{
     background-color: rgba(27, 102, 102, 0.952);
     transition: 0.67s ease-in;
 }
+header:hover .header-image{
+    transform: scale(1.1);
+    transition: transform 3s ease-in-out;
+}
 header:hover h1{
     transform: skew(-20deg);
     transition: transform 3s ease;
 }
+
 
 /* header section style end */
 /* players gallery style start */
