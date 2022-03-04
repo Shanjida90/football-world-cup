@@ -25,7 +25,7 @@ border-radius: 10px;
 header{
     background-color: #2e2ec9;
     color: #ffffff;
-   padding: 7%;
+    padding: 7%;
 }
 header:hover{
     background-color: rgba(27, 102, 102, 0.952);
@@ -81,8 +81,7 @@ header:hover h1{
 }
 .img-of-teams img {
     width:400px;
- 
-    
+   
 }
 .fifa-world-cup{
     width: 500px;
