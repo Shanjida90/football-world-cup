@@ -27,6 +27,15 @@ header{
     color: #ffffff;
    padding: 7%;
 }
+header:hover{
+    background-color: rgba(27, 102, 102, 0.952);
+    transition: 0.67s ease-in;
+}
+header:hover h1{
+    transform: skew(-20deg);
+    transition: transform 3s ease;
+}
+
 /* header section style end */
 /* players gallery style start */
 .player-image img{
@@ -104,6 +113,11 @@ header{
 .footer-title {
     font-family: 'Noto Sans', sans-serif;
 }
+.social-media a{
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(52, 85, 148);
+}
 .footer-part{
     display: flex;
     flex-direction: column;
@@ -158,5 +172,4 @@ header{
     padding: 20%;
     
  }
-
 }
